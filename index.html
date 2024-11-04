@@ -114,13 +114,13 @@
         <div class="container text-center">
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-5">Contact Me</h6>           
-            <form action="https://script.google.com/macros/s/AKfycbzx412rxIBumK4qdrubC8uyNeXMHyDYsPX7SMWDSXHZ9BpKYzEVP40xsbD9a1fe56Mr/exec" class="contact-form col-md-10 col-lg-8 m-auto">
+            <form method="post" action="https://script.google.com/macros/s/AKfycbzOexuD00tdh0t5C-6NecypkAjfb2tli1lelK6cKCDs5ApEYw0LhgAMXxfHESbb9cNwSQ/exec" name="contact-form" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
+                        <input type="text" size="50" class="form-control" name="Name" placeholder="Your Name" required>
                     </div>
                     <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email" required>
+                        <input type="email" class="form-control" name="Email" placeholder="Enter Email" required>
                     </div>
                     <div class="form-group col-sm-12">
                         <textarea name="comment" id="comment" rows="6" class="form-control" placeholder="Write Something"></textarea>
@@ -150,6 +150,7 @@
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
     <script src="assets/js/meyawo.js"></script>
+    <script src="assets/js/contactform.js"></script>
 
 </body>
 </html>
